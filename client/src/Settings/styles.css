@@ -1,0 +1,22 @@
+.create-room__settings-wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.create-room__settings-item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.create-room__settings-item > div {
+  flex: 1;
+}
+.create-room__settings-item select{
+  height: 40px;
+  padding: 8px;
+  width: 100%;
+}
+.create-room__settings-item-name{
+  font-weight: bold;
+}
